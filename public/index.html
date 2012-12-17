@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <title>Web Socket Login</title>
+  <style>
+  * {
+      -webkit-box-sizing:             border-box;
+      -moz-box-sizing:                border-box;
+      box-sizing:                     border-box;
+  }
+
+  body, h1, h2, div, p, ul, li, form, input, button, fieldset {
+      margin:                         0;
+      padding:                        0;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+  </style>
+</head>
+<body id="body">
+
+    <form id="login" action="/login" method="post" class="hidden">
+        <fieldset>
+            <legend>Authentication:</legend>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Log In">
+        </fieldset>
+    </form>
+
+    <form id="logout" action="/logout" method="get" class="hidden">
+        <fieldset>
+            <legend>Authentication:</legend>
+            <input type="submit" value="Log Out">
+        </fieldset>
+    </form>
+
+    <ul>
+       <li>Node version: <span id="node">n/a</span></li>
+       <li>V8 version: <span id="v8">n/a</span></li>
+       <li>OS: <span id="os">n/a</span></li>
+       <li>Architecture: <span id="arch">n/a</span></li>
+    </ul>
+
+    <ul>
+        <li>RSS: <span id="rss">n/a</span></li>
+        <li>Heap Used: <span id="heapUsed">n/a</span></li>
+        <li>Heap Total: <span id="heapTotal">n/a</span></li>
+    </ul>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

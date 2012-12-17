@@ -1,0 +1,32 @@
+{
+  "name": "node-ws-auth-boilerplate",
+  "version": "0.0.1",
+  "author": {
+    "name": "Trygve Lie",
+    "email": "post@trygve-lie.com"
+  },
+  "description": "A boilerplate for doing authentication with web sockets",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git.api.no:/var/lib/git/code/mayhem.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "websockets",
+    "authentication"
+  ],
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "bugs": {
+    "url": "https://apidev.atlassian.net/browse/PUB"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ws": "latest"
+  }
+}
