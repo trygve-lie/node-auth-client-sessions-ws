@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "lib/node-client-sessions/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
