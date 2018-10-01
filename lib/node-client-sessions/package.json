@@ -10,13 +10,13 @@
   },
   "dependencies" : {
     "cookies" : "https://github.com/benadida/cookies/tarball/d2f0f0b3",
-    "node-proxy": "0.6.0"
+    "node-proxy": "1.0.0"
   },
   "devDependencies": {
-    "vows": "0.5.13",
-    "express": "2.5.0",
+    "vows": "0.8.2",
+    "express": "4.16.3",
     "tobi": "https://github.com/Cowboy-coder/tobi/tarball/fd733a3",
-    "zombie": "1.3.1"
+    "zombie": "6.1.3"
   },
   "author" : {
     "name"  : "Ben Adida",
